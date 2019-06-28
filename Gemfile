@@ -25,8 +25,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+
 # Use prawn for generating PDFs
 gem 'prawn-rails'
+
+# Use Google API Client
+gem 'google-api-client', '~> 0.11'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
