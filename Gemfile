@@ -25,11 +25,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Use AWS S3 and other resources
+gem 'aws-sdk'
+gem 'aws-sdk-rails'
 
 # Use prawn for generating PDFs
 gem 'prawn-rails'
 
-# Use Google API Client
+# Use Google API Client for Google Calendar data etc.
 gem 'google-api-client', '~> 0.11'
 
 # Reduces boot times through caching; required in config/boot.rb
